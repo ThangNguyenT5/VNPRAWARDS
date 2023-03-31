@@ -1,0 +1,35 @@
+@media screen and (max-width:1440px){
+}
+
+@media screen and (max-width:1200px){
+    .hd-menu-item {
+        margin: 0;
+    }
+    .hd-menu-item:first-child {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .hd-menu-list {
+        display: block;
+        width: 60vw;
+        height: 100%;
+        padding: 5.6rem 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+@media screen and (max-width:768px){
+    
+}
+
+@media screen and (max-width:576px){
+    
+}
+
+@media screen and (max-width:440px){
+    
+}

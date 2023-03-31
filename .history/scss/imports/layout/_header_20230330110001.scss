@@ -1,0 +1,48 @@
+// css header
+.header {
+    background-color: $primary;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hd-ctn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.6rem 0;
+}
+
+.hd-logo {
+
+}
+
+.custom-logo-link {
+
+}
+
+.custom-logo {
+
+}
+
+.hd-menu {
+
+}
+
+.hd-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $black;
+}
+
+.hd-menu-item {
+    color: $black;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin: 0 2rem;
+    text-decoration: none;
+}
+
+.hd-menu-item {
+    color: $black;
+}

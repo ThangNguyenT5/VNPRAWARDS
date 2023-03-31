@@ -1,0 +1,43 @@
+// CSS HOMEPAGE
+.schero {
+  height: 100vh;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+.galerry-page {
+  padding-top: 10rem;
+}
+
+.galerry-tt {
+  color: $white;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 5.5rem;
+  // -webkit-text-stroke: 2px;
+  // -webkit-text-stroke-color: $primary;
+  // -webkit-text-fill-color: transparent;
+  text-shadow: 2px 0 $primary, -2px 0 $primary, 0 2px $primary, 0 -2px $primary,
+               1px 1px $primary, -1px -1px $primary, 1px -1px $primary, -1px 1px $primary;
+}
+
+.galerry-box {
+  position: relative;
+  padding-top: 50%;
+}
+
+.galerry-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.galerry-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

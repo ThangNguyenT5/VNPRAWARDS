@@ -1,0 +1,70 @@
+:root {
+    /* colors - tuỳ chỉnh theo thiết kế */
+    --bg-main: #fff;
+    --white: #fff;
+    --black: #000;
+    --black-main: #231f20;
+
+    --primary: #B72328;
+    --body-text: #1A1A1A;
+
+    --line: #ccc;
+}
+
+@media screen and (max-width:1440px){
+}
+
+@media screen and (max-width:1200px){
+    .hd-menu-item {
+        margin: 0;
+    }
+    .hd-menu-item:first-child {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+/* HEADER */
+    .header.btn {
+        display: block;
+    }
+    .hd-menu-list {
+        display: block;
+        width: 50vw;
+        height: 100vh;
+        text-align: right;
+        background-color: var(--primary);
+        padding: 5.6rem 2.6rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 3;
+        transform: translateX(100%);
+        transition: 0.3s;
+
+    }
+    .hd-menu-list.active {
+        display: block;
+        visibility: visible;
+        transform: scale(1);
+    }
+/* MAIN */
+    .galerry-desc {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+
+/* FOOTER */
+}
+
+@media screen and (max-width:768px){
+    
+}
+
+@media screen and (max-width:576px){
+    
+}
+
+@media screen and (max-width:440px){
+    
+}

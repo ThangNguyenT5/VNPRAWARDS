@@ -1,0 +1,179 @@
+// css header
+.header {
+    background-color: $primary;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.hd-ctn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.6rem 0;
+}
+
+.hd-logo {
+    width: 136.79px;
+    height: 113px;
+}
+
+.custom-logo-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.custom-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.hd-menu {
+    width: 100%;
+    height: 100%;
+}
+
+.hd-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $black;
+}
+
+
+.hd-menu-item {
+    position: relative;
+    padding: 1rem;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.sub-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    background-color: $primary;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+}
+
+.sub-nav::before {
+    content: '';
+    position: absolute;
+    top: -0.6rem;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.sub-menu {
+    text-align: center;
+}
+
+.sub-item {
+    padding: 2rem 0;
+}
+
+.hd-menu-item .sub-item a {
+    color: $white;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.hd-menu-item .sub-item:hover {
+    cursor: pointer;
+    background-color: #1a1a1a;
+    color: $primary;
+}
+
+.hd-menu-item:hover .sub-nav {
+    visibility: visible;
+    top: 4rem;
+    left: 0;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.hd-menu-item:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.hd-menu-item:last-child {
+    margin-right: 0;
+    padding-right: 0;
+
+
+}
+
+.hd-menu-item a {
+    color: $body-text;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+
+
+}
+
+.hd-menu-item:hover a {
+    color: $white;
+    cursor: pointer;
+}
+
+.hd-menu-item.current-menu-item a {
+    color: $white;
+}
+
+.hd-menu-item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+.header.btn {
+    display: none;
+    width: 2.8rem;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.btn-menu {
+    max-width: 2.8rem;
+}
+
+.bg-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.bg-page.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}

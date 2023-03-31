@@ -1,0 +1,20 @@
+// CSS HOMEPAGE
+.schero {
+  height: 100vh;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+.galerry-tt {
+  color: #ccc;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 5.5rem;
+  // text-shadow: 0 1px 1px $primary,
+  //             1px 0 1px $primary,
+  //             1px 1px 1px $primary,
+  //             0px 0px 1px $primary,
+  border: 1px solid $primary;
+}

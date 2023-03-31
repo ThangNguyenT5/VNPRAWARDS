@@ -1,0 +1,26 @@
+@media screen and (max-width:1440px){
+}
+
+@media screen and (max-width:1200px){
+    .hd-menu-item {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .hd-menu-list {
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px){
+    
+}
+
+@media screen and (max-width:576px){
+    
+}
+
+@media screen and (max-width:440px){
+    
+}
