@@ -1,0 +1,14 @@
+.faq-page {
+    padding-top: 10rem;
+  }
+  
+.faq-header {
+    color: $white;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 0 $primary, -2px 0 $primary, 0 2px $primary, 0 -2px $primary,
+                 1px 1px $primary, -1px -1px $primary, 1px -1px $primary, -1px 1px $primary;
+    pointer-events: none;              
+}

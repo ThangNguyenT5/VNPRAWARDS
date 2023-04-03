@@ -1,0 +1,50 @@
+.faq-page {
+    padding-top: 6.2rem;
+  }
+  
+.faq-tt {
+    color: $white;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 0 $primary, -2px 0 $primary, 0 2px $primary, 0 -2px $primary,
+                 1px 1px $primary, -1px -1px $primary, 1px -1px $primary, -1px 1px $primary;
+    pointer-events: none;              
+}
+
+.faq-desc {
+    font-size: 2.5rem;
+    max-width: 510px;
+    margin-top: 1.8rem;
+}
+
+.faq-form {
+    margin-top: 3rem;
+}
+
+
+.form-top {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.form-top textarea {
+    width: 100%;
+    min-height: 224px;
+    resize: none;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    padding: 2rem;
+}
+
+
+.form-bottom {
+
+}
+
+.form-control {
+
+}
