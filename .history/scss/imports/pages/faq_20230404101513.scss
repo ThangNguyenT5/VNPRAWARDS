@@ -1,0 +1,231 @@
+.faq-form {
+    position: relative;
+    padding-top: 6.2rem;
+    padding-bottom: 8rem;
+}
+
+.faq-form::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 342px;
+    height: 112px;
+    background-color: #B72328;
+    opacity: 0.5;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    z-index: -1;
+}
+
+.faq-accordion {
+    position: relative;
+    padding-bottom: 1.8rem;
+}
+
+.faq-accordion::after {
+    content: '';
+    position: absolute;
+    bottom: 26%;
+    left: -5%;
+    width: 342px;
+    height: 112px;
+    background-color: #B72328;
+    opacity: 0.5;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    z-index: -1;
+}
+  
+  
+.faq-tt {
+    color: $white;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 0 $primary, -2px 0 $primary, 0 2px $primary, 0 -2px $primary,
+                 1px 1px $primary, -1px -1px $primary, 1px -1px $primary, -1px 1px $primary;
+    pointer-events: none;              
+}
+
+.faq-desc {
+    font-size: 2.5rem;
+    max-width: 510px;
+    margin-top: 1.8rem;
+}
+
+.faq-ctn {
+    margin-top: 3rem;
+}
+
+
+.form-top {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.form-top textarea {
+    width: 100%;
+    min-height: 224px;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    resize: none;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    padding: 2rem;
+}
+
+
+.form-bottom {
+}
+
+.form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.form-control:last-child {
+    margin-bottom: 2rem;
+}
+
+.form-control label {
+    min-width: 20rem;
+    padding: 1rem 1rem 1rem 0;
+    transition: 0.5s;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.form-top textarea:focus {
+    outline: 1px solid $primary;
+}
+
+.form-control input:focus {
+    outline: 1px solid $primary;
+}
+
+.form-control input:focus ~label {
+    font-weight: 700;
+    color: $primary;
+}
+
+.btn-submit {
+    float: right;
+    margin-right: 5px;
+    padding: 1.7rem 3.8rem;
+    border: none;
+    color: $white;
+    background-color: $black;
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+    font-weight: 700;
+    box-shadow: 5px 5px 0px #BB686B;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: $primary;
+    box-shadow: 5px 5px 0px $black;
+    cursor: pointer;
+}
+
+.faq-accordion {
+    padding-top: 8rem;
+}
+
+.faq-accordion-top {
+    width: 65%;
+    font-size: 3rem;
+    line-height: 3.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $black;
+    border-bottom: 5px solid $primary;
+    text-align: center;
+    padding: 2.6rem 0;
+    margin: 0 auto;
+}
+
+.faq-accordion-ctn {
+    padding-top: 4rem;
+    padding-bottom: 12rem;
+}
+
+
+.faq-accordion-bottom {
+    width: 65%;
+    font-size: 3rem;
+    line-height: 3.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $black;
+    border-bottom: 5px solid $primary;
+    text-align: center;
+    padding: 2.3rem 0;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    display: flex;
+}
+
+.accordion-item-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.8rem;
+    height: 7.8rem;
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: rgba(183, 35, 40, 0.25);
+    border-radius: 100rem;
+    margin-right: 2.4rem;
+}
+
+.accordion-box {
+    width: 100%;
+}
+
+.collapse-head {
+    position: relative;
+    padding: 2.3rem 5rem;
+    margin: auto;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: rgba(183, 35, 40, 0.25);
+    cursor: pointer;
+}
+
+.collapse-head-icon {
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.collapse-body .collapse-body {
+    background-color: rgba(183, 35, 40, 0.25);
+    border-radius: 2rem;
+    margin-top: 0.8rem;
+}
+
+.collapse-body .collapse-content {
+    padding: 3.2rem 4rem;
+}
