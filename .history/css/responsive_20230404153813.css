@@ -17,9 +17,6 @@
     .hd-ctn {
         padding: 2.2rem 0;
     }
-    .hd-menu-item.ancestor:hover .sub-menu {
-        top: 250%;
-    }
 /* MAIN */
 
 /* FOOTER */
@@ -53,9 +50,6 @@
     }
     .hd-logo {
         width: 100px;
-    }
-    .hd-menu-item.ancestor:hover .sub-menu {
-        top: 200%;
     }
 
 /* MAIN */
